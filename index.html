@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Документ без названия</title>
+<link rel="stylesheet" href="css/screen.css">
+<script src="js/chat.js" charset="utf-8"></script>
+</head>
+<body>
+    <section class="wrapper">
+        <article class="form">
+            <form method="POST" name="message">
+                <input name="username" type="text" placeholder="Ваше имя" />
+                <input name="msg" type="text" placeholder="Ваше сообщение" />
+                <button>Сказать</button>
+            </form>
+            <span>255</span>
+        </article>
+        <article class="error">
+        </article>  
+        <article class="chat">
+            <!--template of message-->
+            <div class="message">
+                <time></time>
+                <span class="username"></span>
+                <article class="text"></article>
+            </div>
+            <!--end template-->
+        </article>
+    </section>
+</body>
+</html>
+   
